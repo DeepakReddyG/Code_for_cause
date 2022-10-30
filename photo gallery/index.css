@@ -1,0 +1,17 @@
+h1{
+    color: greenyellow;
+    margin-left: 30%;
+    font-size: 40px;
+}
+.nav a{
+    text-decoration: none;
+    color: lightcoral;
+    font-size: 25px;
+    margin-right: 2%;
+}
+body {background-color: antiquewhite;}
+p{
+    color: blueviolet;
+    margin-left: 20%;
+    font-size: 28px;
+}
