@@ -1,0 +1,35 @@
+    
+head{
+ color: brown;
+}
+body{
+    background-color: black
+
+ 
+
+}
+div{
+    padding-left: 10%
+    
+}
+   
+h3{
+   color: brown;
+   padding-left: 10%;
+   padding-top: 5%;
+   font-size: x-large;
+}
+a {
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: medium;
+}
+h2{
+    padding-left: 13%;
+    padding-top: 5%;
+    color: darkcyan;
+}
+h1{
+    padding-left: 5%;
+    color: darkorange;
+}
