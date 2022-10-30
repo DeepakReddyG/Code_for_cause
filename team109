@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        border-color{border-color=red;}
+        </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photos gallery</title>
+    <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <marquee bgcolor="yellow"> WELCOME TO PHOTO GALLERY </marquee>
+        <h1> Gallery</h1>
+        <img src="galleryicon.jfif" width="300" height="300">
+         <div class="nav">
+    <a href="Travel landscape.html">Travel landscape</a>&nbsp &nbsp
+    <a href="Freedom.html">Freedom fighthers</a>&nbsp &nbsp
+    <a href="electronic.html">Electronic gadgets</a>&nbsp &nbsp
+    <a href="animation.html">Animations</a>&nbsp &nbsp
+ </body>
+</html>
+CSS CODE:
+h1{
+    font-size: 100px;
+    margin-left: 600px;
+    color: darkorchid;
+}
+ body{
+    background-color: rgb(122, 255, 151);
+    font-size:50px;
+    background-image: url('img4.jpg');width="100",height="100">
+     }
+     Travel landscape.html:
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel landscape</title>
+    <link rel="stylesheet" href="travel landscape.css">
+
+    <link rel="stylesheet" href="Travel landscape.css">
+</head>
+<body>
+    
+    <marquee bgcolor="yellow">beautiful travel landscape</marquee>
+    <img src="travel1.jpg" width="300" height="300">
+    <img src="travel2.jpg" width="300" height="300">
+    <img src="travel3.jpg" width="300" height="300">
+    <img src="travel4.jpg" width="300" height="300">
+    <img src="travel5.jpg" width="300" height="300">
+    <img src="travel6.jpg" width="300" height="300">
+    <img src="travel7.jpg" width="300" height="300">
+    <img src="travel8.jpg" width="300" height="300">
+    <video controls>
+        <source src="video1.mp4">
+        </video>
+        <video controls>
+        <source src="video2.mp4">
+        </video>
+        </body>
+        </html>
+        Travell landscape.csscode:
+        h2{
+    color:darkblue;
+    font-size:50px;
+    margin-left:30px;
+}
+body{
+    background-color: tomato;
+   
+}
+Freedom fighthers.html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freedom</title>
+    <link rel="stylesheet" href="Freedom.css">
+</head>
+<body>
+    <h2>Freedom</h2>
+    <marquee bgcolor="yellow"> Freedom</marquee>
+    <img src="freedom1.jpg" width="400" height="400">
+    <img src="freedom2.jpg" width="400" height="400">
+    <img src="freedom3.jpg" width="400" height="400">
+    <img src="freedom4.jpg" width="400" height="400">
+    <img src="freedom5.jpg" width="400" height="400">
+    <img src="freedom6.jpg" width="400" height="400">
+    <a href="https://yts1.us/indian-freedom-fighter-reg4n">videos link</a>
+    </body>
+   </html>
+   Freedom fighthers .csscode:
+   h2{
+    color:darkmagenta;
+    font-size:50px;
+    margin-left:30px;
+    
+
+}
+body{
+    background-color: lightgreen;
+    font-size: 50px;
+    margin-left: 30px;
+}
+electronic gadgets.html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>electronic gadgets</title>
+    <link rel="stylesheet" href="electronic.css">
+</head>
+<body>
+    <h2>electronic gadgets</h2>
+    <marquee bgcolor="yellow"> electronic gadgets</marquee>
+    <img src="electronic1.jpg" width="400" height="400">
+    <img src="electronic2.jpg." width="400" height="400">
+    <img src="electronic3.jpg." width="400" height="400">
+    <img src="electronic4.jpg." width="400" height="400">
+    <img src="electronic5.jpg" width="400" height="400">
+    <img src="electronic6.jpg." width="400" height="400">
+    <video controls>
+    <source src="elevideo1.mp4">
+    </video>
+    <video controls>
+    <source src="elevideo2.mp4">
+    </video>
+  </body>
+</html>
+electronic gadgets.css:
+h2{
+    color:darkmagenta;
+    font-size:50px;
+    margin-left: 30%;
+}
+body{
+    background-color: aqua;
+    font-size: 50px;
+    margin-left:30%;
+}
+animations.html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animations</title>
+    <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+    <h2>Beautiful animations</h2>\
+    <marquee bgcolor="yellow"> animations</marquee>
+    <img src="animat1.jpg" width="400" height="400">
+    <img src="anim2.jpg" width="400" height="400">
+    <img src="anim3.jpg" width="400" height="400">
+    <img src="anim4.jpg" width="400" height="400">
+    <img src="anim5.jpg" width="400" height="400">
+    <img src="anim6.jpg" width="400" height="400">
+    
+</body>
+</html>
+animations.css:
+h2{
+    color:lightcoral;
+    font-size:50px;
+    margin-left: 30%;
+}
+body{
+    background-color: aqua;
+    font-size: 50px;
+    margin-left: 30%;
+}
+
+
+
+     
