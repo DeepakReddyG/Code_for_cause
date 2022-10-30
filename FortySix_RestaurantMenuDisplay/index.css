@@ -1,0 +1,51 @@
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .nav {
+    position:absolute;
+    background: rgba(255, 255, 255, 0.5);
+    color: #000000;
+    width: 100%;
+    padding-block: 25px;
+    
+    
+  }
+  .nav a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    margin-right: 20px;
+    
+  }
+  .logo img{
+    
+    position: fixed;
+    width:300px;
+    margin-top: -25px;
+    
+
+  }
+
+  .contents {
+    float:right ;
+
+  }
+  .maintext h2{
+    position:absolute;
+    margin-top: 25%;
+    font-size: 50px;
+    color:rgba(0, 0, 0, 0.699);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .maintext{
+    margin-left: 50px;
+  }

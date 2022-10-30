@@ -1,0 +1,62 @@
+.nav {
+  position:absolute;
+  background: rgba(255, 255, 255, 0.5);
+  color: #000000;
+  width: 100%;
+  padding-block: 25px;
+  
+  
+}
+.nav a{
+  text-decoration: none;
+  color:rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  margin-right: 20px;
+  
+}
+.logo img{
+  
+  position: fixed;
+  width:300px;
+  margin-top: -25px;
+  
+
+}
+
+.contents {
+  float:right ;
+
+}
+body {
+  background-image: url('contactus.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 125%;
+}
+
+.maintext h2{
+  position:absolute;
+  margin-top: 150PX;
+  font-size: 50px;
+  color:rgba(0, 0, 0, 0.699);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.maintext{
+  margin-left: 50px;
+}
+.subtext p{
+  position:absolute;
+  margin-top: 250PX;
+  font-size: 25px;
+  color:rgba(0, 0, 0, 0.699);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.subtext a{
+  position:absolute;
+  margin-top: 450PX;
+  font-size: 20px;
+  color:rgba(0, 0, 0, 0.699);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+}
