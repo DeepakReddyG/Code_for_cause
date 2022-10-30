@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #ffdab9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ff8c00;
+}
+
+.container {
+  border-radius: 50px;
+  background-color: #ff8c00;
+  padding:20px;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="container">
+  <form action="/action_page.php">
+  <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFEED BACK</h3>
+
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="name" placeholder="Enter Your Name..">
+
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="email" placeholder="Enter Your Email..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+            <option value="india">India</option>
+      <option value="uganda">Uganda</option>
+      <option value="any other country">Any other country</option>
+    </select>
+
+<label for="lname">Start Date</label>
+    <input type="text" id="lname" name="start date" placeholder="Enter Start date..">
+
+<label for="lname">End Date</label>
+    <input type="text" id="lname" name="end date" placeholder="Enter End Date..">
+    <label for="message">Message</label>
+    <textarea id="subject" name="Message" placeholder="Please mention your tour requirements in detail.." style="height:200px"></textarea>
+
+    <input type="send" value="Send">
+  </form>
+</div>
+
+</body>
+</html>
