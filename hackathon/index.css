@@ -1,0 +1,31 @@
+.nav a {
+    color: black;
+    font-size: 150%;
+    text-decoration: none;
+    margin-left: 4%;
+    color: white;
+}
+.nav {
+    background-color: black;
+    padding: 10px;
+}
+img {
+    position: absolute;
+    margin-left: 89%;
+}
+footer {
+    margin-top: 60%;
+}
+p {
+    font-size: 30px;
+    margin-top: 10%;
+}
+.main {
+    margin-top: 15%;
+}
+.main .geek1{
+    font-size: 50px;
+}
+.main .geek2{
+    font-size: 40px;
+}
