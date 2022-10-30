@@ -1,0 +1,57 @@
+body {
+  background-color: #f5f5f5;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  background-image: url(/src/images/backgroundimage.jpg);
+  background-repeat: no-repeat;
+}
+.logo img {
+  display: inline-flex;
+  backdrop-filter: fill(blur(10px));
+  max-width: 100%;
+  width: 100px;
+  height: 100px;
+  margin-right: 200px;
+  margin-left: 120px;
+  margin-top: -5px;
+  position: absolute;
+}
+.nav a {
+  display: inline-flex;
+  padding-top: 20px;
+  color: rgb(255, 123, 0);
+  text-decoration: dashed;
+  border: 10px;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  margin-right: 40px;
+  text-align: right;
+}
+
+.nav a:hover {
+  color: rgb(245, 240, 235);
+  text-decoration: none;
+  border-bottom: 2px solid rgb(255, 123, 0);
+}
+
+center {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+  font-weight: 100;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50;
+  font-weight: 100;
+}
+
+table,
+td,
+tr,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
