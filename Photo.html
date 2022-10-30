@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    background-color: aliceblue;
+}
+h1{
+    color: brown;
+    text-align: center;
+    padding: 10px;
+}
+ .nav a{
+    margin-left: 8%;
+    display: inline;
+    color: black;
+    padding: 10px;
+ }
+ .nav input{
+    margin-left: 7%;
+    padding: 10px;
+ }
+ .nav{
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ }
+ img{
+    position: absolute;
+    margin-left: 3%;
+ }
+ .container {
+     position: absolute;
+    width: 30%;
+}
+
+.image {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.container:hover .image {
+opacity: 0.3;
+}
+
+.container:hover .middle {
+opacity: 1;
+}
+.text {
+background-color: black;
+text-align: center;
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+}
+    </style>
+</head>
+<body>
+    <img src="logo.webp" width="10%" height="10%" alt="Img loading...">
+    <h1>Photo Gallery</h1>
+    <div class="nav">
+        <a href="Photo.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Signin.html">Sign up</a>
+        <a href="Login.html">Sign in</a>
+        <a href="contact.html">Contact</a>
+        <input type="text" placeholder="Search..">
+    </div>
+        <div class="container">
+       <a href="Wildlife.html"> <img src="wildlife.jpg" alt="Wild-life" class="image" style="width:90%"></a>
+        <div class="middle">
+          <div class="text">Wild-life</div></div>
+        </div>
+    </div><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="container">
+            <a href="Space.html"><img src="space.jpg" alt="Space" class="image" style="width:90%"></a>
+            <div class="middle">
+              <div class="text">Space</div>
+        </div>
+    </div><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <div class="container">
+        <img src="fashion.jpg" alt="fashion" class="image" style="width:90%">
+        <div class="middle">
+          <div class="text">Space</div>
+    </div>
+</div><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="container">
+    <a href="Scenery.html"><img src="scenery.jpg" alt="scenery" class="image" style="width:90%"></a>
+    <div class="middle">
+      <div class="text">Scenery</div>
+</div>
+</div>
+<br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="container">
+    <a href="Cars.html"><img src="cars.jpg" alt="cars" class="image" style="width:90%"></a>
+    <div class="middle">
+      <div class="text">Cars</div>
+</div>
+</div>
+<br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<div class="container">
+    <a href="life moments.html"><img src="moments.jpg" alt="moments" class="image" style="width:90%"></a>
+    <div class="middle">
+      <div class="text">Moments</div>
+</div>
+</div>
+</body>
+</html>
