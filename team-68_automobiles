@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CARS</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bbotstrapcdn.com/font-awesome/4.7.0/
+    css/font-awesome.min.css">
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="\">HOME</a></li>
+            <li><a href="cars.html">CARS</a></li>
+            <li><a href="bikes.html">BIKES</a></li>
+            <li><a href="\">BLOG</a></li>
+            <li><a href="\">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="search">
+        <input type="text" placeholder="search">
+    </div>
+    <div class="content">
+        <h2><b>C</b>.A.R.S</h2>
+    </div>
+    <div class="content">
+        <h2><b>B</b>.I.K.E.S</h2>
+    </div>
+    <div>
+        <div class="photo">
+            <img src="lapi.jpg">
+    </div>
+    <div class="font">
+        <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            
+        </ul>
+    </div>
+        <div class="button">
+            <a href="#" class="btn">LEARN MORE</a>
+        </div>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="keywords" content="car, FSAE Electric, FSAE, Formula SAE, Formula SAE Electric, MIT, MIT Motorsports, MIT Racing, MIT Racecar">
+        <meta name="description" content="The MIT Motorsports team participates in the Formula SAE Electric competition every year.">
+        <title>Car | MIT Motorsports</title>
+      
+        <!-- Favicon -->
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="logos/favicon/apple-touch-icon-57x57.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="logos/favicon/apple-touch-icon-114x114.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="logos/favicon/apple-touch-icon-72x72.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="logos/favicon/apple-touch-icon-144x144.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="logos/favicon/apple-touch-icon-60x60.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="logos/favicon/apple-touch-icon-120x120.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="logos/favicon/apple-touch-icon-76x76.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="logos/favicon/apple-touch-icon-152x152.png" />
+        <link rel="icon" type="image/png" href="logos/favicon/favicon-196x196.png" sizes="196x196" />
+        <link rel="icon" type="image/png" href="logos/favicon/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/png" href="logos/favicon/favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="logos/favicon/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" type="image/png" href="logos/favicon/favicon-128.png" sizes="128x128" />
+        <meta name="application-name" content="&nbsp;"/>
+        <meta name="msapplication-TileColor" content="#FFFFFF" />
+        <meta name="msapplication-TileImage" content="logos/favicon/mstile-144x144.png" />
+        <meta name="msapplication-square70x70logo" content="logos/favicon/mstile-70x70.png" />
+        <meta name="msapplication-square150x150logo" content="logos/favicon/mstile-150x150.png" />
+        <meta name="msapplication-wide310x150logo" content="logos/favicon/mstile-310x150.png" />
+        <meta name="msapplication-square310x310logo" content="logos/favicon/mstile-310x310.png" />
+      
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" integrity="sha256-e22BQKCF7bb/h/4MFJ1a4lTRR2OuAe8Hxa/3tgU5Taw=" crossorigin="anonymous" />
+        <link href="css/style.css" type="text/css" rel="stylesheet"/>
+      </head>
+      <body>
+      
+        <!-- Start Navbar -->
+        <nav class="grey darken-4" role="navigation">
+          <div class="nav-wrapper container">
+            <ul class="right hide-on-med-and-down" style="position: relative; z-index:10000">
+              <li><a class="white-text" href="about.html">About</a></li>
+              <li><a class="white-text" href="team.html">Team</a></li>
+              <li><a class="white-text" href="car.html">Car</a></li>
+              <li><a class="white-text" href="sponsors.html">Partners</a></li>
+              <li><a class="white-text" href="media.html">Media</a></li>
+              <li><a class="white-text" href="contact.html">Contact</a></li>
+            </ul>
+      
+            <ul id="nav-mobile" class="side-nav grey darken-4">
+              <li><a class="white-text" href="about.html">About</a></li>
+              <li><a class="white-text" href="team.html">Team</a></li>
+              <li><a class="white-text" href="car.html">Car</a></li>
+              <li><a class="white-text" href="sponsors.html">Partners</a></li>
+              <li><a class="white-text" href="media.html">Media</a></li>
+              <li><a class="white-text" href="contact.html">Contact</a></li>
+            </ul>
+      
+            <div id="logo-container" style="height:90%; width:90%">
+              <a href="index.html" class="brand-logo hide-on-med-and-down"><img style="height:90%; width:90%" src="logos/dark/full.svg" alt="logo"></a>
+              <a href="index.html" class="brand-logo hide-on-large-only"><img src="logos/dark/bars.svg" alt="logo"></a>
+              <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">menu</i></a>
+            </div>
+          </div>
+        </nav>
+        <!-- End Navbar -->
+      
+        <!-- First image -->
+        <div id="index-banner" class="parallax-container valign-wrapper overlay">
+          <div class="parallax"><img src="images/backgrounds/better_will_driving2017.jpg" class="responsive-img" alt="MY17 car driving"></div>
+        </div>
+      
+        <!--Content Section -->
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m9 l10">
+              <h2 class="header center black-text">Car</h2>
+      
+              <div id="design" class="section scrollspy">
+                <h4>Design</h4>
+                <p>We design a new car from the ground up every year. The team maximizes vehicle handling by driving design off of the suspension points. Every part is 3D modeled in CAD to allow for precise geometry and packaging. Further analysis is conducted using finite element analysis to optimize strength while minimizing weight.</p>
+                <h5>Manufacturing</h5>
+                <p>We build the parts that we design. Team members have the opportunity to learn more by working in a full machine shop with manual and CNC machines, rapid prototyping machines and waterjet cutters. By manufacturing precision racing parts, team members apply the “design for manufacturing” principle. Finding the balance between geometry optimization and available tools allows the team to develop a sense of what is possible and where innovation lies.</p>
+                <h5>Development</h5>
+                <p>Building the car is only half of the process. Upon completion of various systems, we validate the design through component and vehicle testing. Custom electronics are used to relay data to the team that help tune the vehicle and improve the driver’s ability.</p>
+                <h5>Performance</h5>
+                <p>The vehicle’s handling and efficiency is drastically improved via weight reduction. MY17 weighs in at 230 kilograms withoutdriver, and has a 100kW Emrax motor that outputs 240 Nm of torque to allow the driver to reach 70 mph quicker than you can read this sentence. To reach maximum performance, the suspension uses 4-way adjustable coilovers to allow the car to sit an inch off the ground, and slick racing tires allow the driver to experience up to 1.5 G’s of lateral acceleration mid-turn.</p>
+              </div>
+      
+              <div id="history" class="section scrollspy">
+                <h4>The MIT Motorsports Tradition</h4>
+                <p>MIT first entered the Formula SAE competition when two freshmen founded the team in 2001. Since MIT first stepped foot on the race track in 2003, the team has steadily learned more and improved its performance. From the humble beginnings of a 97th place finish in 2003 and a 41st place finish in 2004, the team used its experiences to eventually achieve a 2nd place overall at FSAE Electric in 2017.</p>
+              </div>
+      
+              <div id="MY18" class="section scrollspy">
+                <h4>Model Year 2018</h4>
+                <p>The team is always striving for innovation and improvements. Armed with a strong cohort of young engineers, the team is engineering MY18 with the intent of preparing for a major design leap that will debut in 2019.</p>
+                <p>One of our goals this year is to predict the lap time when the car still only exists on a computer screen so that we can tune the car virtually, and arrive at the exact stiffness, weight, and power requirements that we need for the car to perform well. In order to do this we are improving our data collection by doubling the number of onboard sensors to record everything from power draw to lateral acceleration and brake temperature.</p>
+                <p>The R&amp;D team is looking to change several steel components to carbon fiber. Carbon-reinforced materials are used extensively in motorsports, because of their incredible strength and low weight. This is all leading up to a transition to a carbon fiber half-monocoque for Model Year 19. Additionally our existing rear wheel drive setup is being rigorously tested to determine the peak performance and limiting factors in our powertrain so that we can determine how we will pursue four wheel drive on MY19.</p>
+              </div>
+      
+              <div id="MY17" class="section scrollspy">
+                <h4>Model Year 2017</h4>
+                <p>The car is a complex machine made of many mechanical and electrical subsystems. Team members work in various engineering disciplines according to their skills or interests. This results in a diverse spread of skills from statics and fluids to microelectronics and controls.</p>
+                <img src="images/old_cars/2017.JPG" alt="MY17" class="responsive-img materialboxed">
+                <h5>Electric Control Unit</h5>
+                <p>Our car's electronics are designed with safety and reliability in mind. We build system components such as battery management and VCU logs in house to give us full control of parts selection and form factor which improved reliability and performance.</p>
+                <h5>Powertrain</h5>
+                <p>The drivetrain was designed with three significant goals in mind: lightweight, powerful, and serviceable. We moved from two motors to one Emrax 228 MV and a Drexler limited slip differential and a Unitek Bamocar D3 400/400 motor controller to accomplish this.</p>
+                <h5>Uprights</h5>
+                <p>MATLAB analysis of smaller and lighter deep groove wheel bearings led to a wider profile for the uprights in order to maintain reasonable radial loads. Uprights themselves were 3-axis CNC machined from aircraft-grade aluminum and built with an integrated camber adjustment mechanism.</p>
+                <h5>High Voltage Electrical System</h5>
+                <p>The tractive system was designed for safety, reliability, and performance. It’s powered by a custom built pack producing a peak voltage of 300V and containing 7.02 kWh of energy. The entire pack is separated into 6 polycarbonate modules that allow for quick interchanges if issues arise.</p>
+                <h5>Aerodynamics</h5>
+                <p>The MY17 aero package has three times the downforce of the MY16 design with only a 45% increase in total drag. This resulted from an actuated upper element and front wing’s gurney flaps on the endplates and strakes on the underside of the wing.</p>
+                <h5>2017 Formula SAE Electric Competition at Lincoln Air Park</h5>
+                <p>The annual Formula SAE electric vehicle competition was held by the Society of Automotive Engineers at the Lincoln Airpark. The team arrived in Lincoln, Nebraska having not driven through a checkered flag since 2012. In the weekend’s first dynamic event, MIT placed 5th in Acceleration. The following two events, Skid Pad and Autocross, resulted in competitive 3rd place efforts. Finishing the weekend strong, suspension lead Will Harvey (‘18) clocked the fastest EV lap of the Endurance event at 83.7 seconds before handing the car off to team captain Luis Mora (‘18), who powered the car to a strong 2nd place. With cost, business, and design scores factored in, the team placed 2nd overall in the EV category!</p>
+              </div>
+      
+              <h4>Model Year 2016</h4>
+              <img src="car1.jpg" alt="MY16" class="responsive-img materialboxed">
+      
+              <div id="MY15" class="section scrollspy">
+                <h4>Model Year 2015</h4>
+                <p>MY15 was the team’s first completed running electric vehicle, allowing for preliminary testing and data acquisition. It featured a newly designed aerodynamics package, the first in team history.</p>
+                <img src="car2.jpg" alt="MY15" class="responsive-img materialboxed">
+              </div>
+      
+              <h4>Model Year 2014</h4>
+              <img src="car3.JPG" alt="MY14" class="responsive-img materialboxed">
+      
+              <div id="MY12" class="section scrollspy">
+                <h4>Model Year 2012</h4>
+                <p>The two year build cycle from 2012 - 2013 was the end of a era and the start of a new adventure: the team would build an internal combustion car for the last time. The team successfully competed in the 2012 Formula SAE Michigan competition, placing 16th out of 120 teams. The team again placed in the top 5 for its fuel economy, with its ethanol fueled car, as well as top 5 for its cost report score. MY12 was also able to impress the judges with its custom intake, fully adjustable suspension, and modified 4-cylinder engine.</p>
+                <img src="car4.JPG" alt="MY12" class="responsive-img materialboxed">
+              </div>
+              <h4>Model Year 2016</h4>
+              <img src="bike11.jpg" alt="MY16" class="responsive-img materialboxed">
+      
+              <div id="MY15" class="section scrollspy">
+                <h4>Model Year 2015</h4>
+                <p>MY15 was the team’s first completed running electric vehicle, allowing for preliminary testing and data acquisition. It featured a newly designed aerodynamics package, the first in team history.</p>
+                <img src="bike12.jpg" alt="MY15" class="responsive-img materialboxed">
+              </div>
+      
+              <h4>Model Year 2014</h4>
+              <img src="bike3.JPG" alt="MY14" class="responsive-img materialboxed">
+      
+              <div id="MY12" class="section scrollspy">
+                <h4>Model Year 2012</h4>
+                <p>The two year build cycle from 2012 - 2013 was the end of a era and the start of a new adventure: the team would build an internal combustion car for the last time. The team successfully competed in the 2012 Formula SAE Michigan competition, placing 16th out of 120 teams. The team again placed in the top 5 for its fuel economy, with its ethanol fueled car, as well as top 5 for its cost report score. MY12 was also able to impress the judges with its custom intake, fully adjustable suspension, and modified 4-cylinder engine.</p>
+                <img src="bike4.JPG" alt="MY12" class="responsive-img materialboxed">
+              </div>
+      
+              <div id="MY10" class="section scrollspy">
+                <h4>Model Year 2010</h4>
+                <p>The team switched to a two year cycle to allow for more development and testing, which proved to be a great advantage for design and development. MIT was able to finish 8th overall in the 2010 FSAE West competition, the best in MIT’s history since its founding in 2001. The team’s highest ranking event was fuel economy, where the ethanol fueled car finished in 2nd place.</p>
+                <img src="images/old_cars/2010.jpg" alt="MY10" class="responsive-img materialboxed">
+              </div>
+      
+              
+              <div class="pin-top pin-bottom pinned">
+                <ul class="section table-of-contents">
+                  <li><a href="#design">Design</a></li>
+                  <li><a href="#history">History</a></li>
+                  <li><a href="#MY18">MY18</a></li>
+                  <li><a href="#MY17">MY17 Silver Cup</a></li>
+                  <li><a href="#MY15">MY15 Transition to EV</a></li>
+                  <li><a href="#MY12">MY12 Final Run</a></li>
+                  <li><a href="#MY10">MY10 Rebirth</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!--Start Footer-->
+        <footer class="page-footer red darken-4">
+          <div class="container">
+            <div class="row valign-wrapper">
+              <div class="col l1 s12">
+                <ul>
+                  <li><a class="white-text" href="index.html">Home</a></li>
+                  <li><a class="white-text" href="about.html">About</a></li>
+                  <li><a class="white-text" href="team.html">Team</a></li>
+                  <li><a class="white-text" href="car.html">Car</a></li>
+                </ul>
+              </div>
+              <div class="col l1 s12 top">
+                <ul>
+                  <li><a class="white-text" href="sponsors.html">Partners</a></li>
+                  <li><a class="white-text" href="contact.html">Contact</a></li>
+                  <li><a class="white-text" href="media.html">Media</a></li>
+                  <li><a class="white-text" href="credits.html">Credits</a></li>
+                </ul>
+              </div>
+              <div class="col l3 s12">
+                <ul>
+                  <li><span class="white-text">MIT Building N51</span></li>
+                  <li><span class="white-text">265 Massachusetts Ave</span></li>
+                  <li><span class="white-text">Cambridge, MA 02139</span></li>
+                  <li><span class="white-text">fsae@mit.edu</span></li>
+                </ul>
+              </div>
+              <div class="col l8 s12">
+                <a href="https://www.facebook.com/mitfsae/" target="_blank"><img class="grow" src="images/social_media_icons/facebook.png" alt="Facebook" style="padding-right:10px; padding-bottom:2px;"></a>
+                <a href="https://twitter.com/mitracing?lang=en" target="_blank"><img class="grow" src="images/social_media_icons/twitter.png" alt="Twitter" style="padding-right:10px; padding-bottom:2px;"></a>
+                <a href="https://www.instagram.com/mitmotorsports/" target="_blank"><img class="grow" src="images/social_media_icons/instagram.png" alt="Instagram" style="padding-right:10px;"></a>
+                <a href="https://www.youtube.com/channel/UCtUTv52fJi8hfXDDovnQHeA" target="_blank"><img class="grow" src="images/social_media_icons/youtube.png" alt="YouTube" style="padding-right:10px;"></a>
+                <a href="https://github.com/MITMotorsports" target="_blank"><img class="grow" src="images/social_media_icons/github.png" alt="GitHub" style="padding-right:10px;"></a>
+                <a href="https://giving.mit.edu/give/to?fundId=2733854" target="_blank"><img class="grow" src="images/social_media_icons/donate3.png" alt="Donate"></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            MIT Motorsports | <a class="brown-text text-lighten-3" href="credits.html">Credits</a>
+            </div>
+          </div>
+        </footer>
+        <!--End Footer-->
+      
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+        <meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:700' rel='stylesheet' type='text/css'>
+	<style>
+		@import url(//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css);
+		@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+	</style>
+	<link rel="stylesheet" href="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/default_thank_you.css">
+</head>
+<body>
+	<header class="site-header" id="header">
+		<h1 class="site-header__title" data-lead-id="site-header-title">THANK YOU!</h1>
+	</header>
+      
+        
+</body>
+</html>
