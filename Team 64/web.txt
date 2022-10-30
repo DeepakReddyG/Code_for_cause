@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>
+Lets build the better world together.
+</title>
+</head>
+<body background="charity.jpg">
+<img src="logoo.png" height="200" width="200">
+<font size="4">
+<a href="#"><font color="white" size="5">HOME</a>&nbsp;&nbsp;&nbsp;
+<a href="#"><font color="white" size="5">ABOUT US</a>&nbsp;&nbsp;&nbsp;
+<a href="#"><font color="white" size="5">VIDEOS</a>&nbsp;&nbsp;&nbsp;
+</font>
+</h3>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<font color="white" size="4">
+<p6>DONATE TO CONTRIBUTE</p6>
+<font face="Lato" font color="white" size="7">
+<h1 align="left">
+Lets Build The Better World Together.</h1>
+<font color="white" size="5">
+<p7>We work hand-in-hand with trusted local peacebuilders in conflict zones across<br> 
+central Africa to help their communities organize to prevent violent conflict,<br> 
+recover from its impacts, and build sustainable peace.</p7>
+</font>
+<h3 align="left">
+<a href="#">&nbsp;&nbsp;&nbsp;
+<font color="white" size="5">Donate fund</font>
+<a href="#">&nbsp;&nbsp;&nbsp;
+<font color="white" size="5">Read more</font>
+</a>
+</h3>
+<font color="white" size="4">
+<p11>
+Made by Thanmayie<br>
+Roll no:2200030111<br>
+DTW
+</p11>
+
+</body>
+</html>
