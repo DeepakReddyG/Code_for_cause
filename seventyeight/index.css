@@ -1,0 +1,16 @@
+body{
+    background-color: white;
+    color: black;
+}
+    
+h2{
+    color: red;
+}
+h3{
+    color:blue;
+}
+.nav a {
+    text-decoration: none;
+    margin-left: 50px;
+    color:black;
+}
