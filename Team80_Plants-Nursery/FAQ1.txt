@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="faq.css">
+<style>
+    body {
+      background-image: url('Backgrnd.jpg');
+      background-repeat: no-repeat;
+    }
+    </style>
+<body>
+    
+    <h1 style="color: RED;">FAQ</h1>
+    <h2 style="color: white;">1.How do i start choosing which plant to buy?</h1>
+    <p1 style="color: white;">People often make the mistake of choosing which plant they want before they know where it should go.
+
+        The truth is, you should decide where you want your plant before you decide which plant to buy.
+        
+        This is because different plants will thrive in different spots, depending on the amount of space and light available.</p1><br>
+    <h2 style="color: white;"> 2 .What is the difference between bright, medium and low light plants?</h2> 
+    <p2 style="color: white;">right light plants will do well in direct or strong sunlight for the most part of a day.
+
+        Medium light plants should stay out of the direct sunlight. They should be placed in a bright room and will enjoy partial or filtered sunlight.</p2><br>
+    <h2 style="color: white;"> 3 .Which indoor plants are the easiest to care for?</h3>
+    <p3 style="color: white;">Pothos, Aglaonema, Sansevieria, Dracaena Lisa, Spider, Corn, Iron, ZZ plants, Bird’s Nest fern, Cacti, Succulents. </p3>  
+</body>
+</html>
