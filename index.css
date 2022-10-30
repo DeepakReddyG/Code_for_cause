@@ -1,0 +1,24 @@
+h1 {
+    color: brown;
+    text-align: center;
+}
+div{
+    font-size: 20px;
+    border: 8px solid brown;
+}
+h3{
+    color: black;
+}
+body{
+    background-image: url("big-what-a-plant-knows.jpg") ;
+}
+.nav a{
+    text-decoration: none;
+    margin: 12.5%;
+}
+img{
+    margin:400px;
+}
+h2{
+    color: brown;
+}
