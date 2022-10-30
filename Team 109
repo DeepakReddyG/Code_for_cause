@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOTO GALLERY</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <marquee bgcolor="green">WELCOME TO  PHOTO GALLERY</marquee>
+   <h1>GALLERY</h1>
+    <img src="icon.png"width="250" height="250">
+
+    <div class="nav"></div>
+    <a href="IMAGES.html">IMAGES</a>
+
+
+
+
+    <a href="VIDEOS.html">VIDEOS</a>
+
+
+
+</body>
+</html>
+css code:
+html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+h1{
+    margin-left: 550px;
+    color :blue;
+    font-size: 60px;
+}
+body {
+    color: darkmagentaS;
+    font-size: 50px;
+    border: 10px;
+    background-image: url('image1.jpg');
+    
+  }
+  html code:
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOTO GALLERY</title>
+    <link rel="stylesheet" href="IMAGES.css">
+
+</head>
+<body>
+    <div class="nav"></div>
+    <a href="Travel landscape.html">Travel landscape</a>
+    <a href="Freedom fighters.html">Freedom fighters</a>
+    <a href="Auto mobiles.html">Auto mobiles</a>
+
+
+</body>
+</html>
+css code:
+body{
+    background-color: chocolate;
+    font-size: 50px;
+}
+html code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOTO GALLERY</title>
+    <link rel="stylesheet" href="Travel landscape.css">
+    <h1>TRAVEL LANDSCAPE IMAGES</h1>
+    <img src="travel1.jpg" width="300" height="300">
+    <img src="travel2.jpg" width="300" height="300">
+    <img src="travel3.webp" width="300" height="300">
+    <img src="travel4.jpg" width="300" height="300">
+    <img src="travel5.jpg" width="300" height="300">
+    <img src="travel6.jpg" width="300" height="300">
+</head>
+<body>
+css code:
+h1{
+    color: firebrick;
+    font-size: 30px;
+    margin-left: 500px;
+}
+body{
+    background-color: blanchedalmond;
+}
+* {
+    box-sizing: border-box;
+  }
+  .menu {
+    width: 50%;
+    float: left;
+  }
+  .main {
+    width: 50%;
+    float: left;
+  }
+  html code:
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOTO GALLERY</title>
+    <link rel="stylesheet" href="Freedom fighters.css">
+    <h1>FREEDOM FIGHTERS</h1>
+    <img src="ff1.jfif" width="300" height="300">
+    <img src="ff2.jfif" width="300" height="300">
+    <img src="ff3.jpg" width="300" height="300">
+    <img src="ff4.jpg" width="300" height="300">
+    <img src="ff5.jpg" width="300" height="300">
+</head>
+<body>
+css code:
+h1{
+    color: chartreuse;
+    font-size: 30px;
+    margin-left: 500px;
+}
+body{
+    background-color: hotpink;
+}
+html code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOTO GALLERY</title>
+    <link rel="stylesheet" href="Auto mobiles.css">
+    <h1>AUTO MOBILES</h1>
+    <img src="am1.jpg" width="300" height="300">
+    <img src="am2.webp" width="300" height="300">
+    <img src="am3.jpg" width="300" height="300">
+    <img src="am4.png" width="300" height="300">
+    <img src="am5.webp" width="300" height="300">
+</head>
+<body>
+css code:
+h1{
+    color: navy;
+    font-size: 30px;
+    margin-left: 550px;
+}
+body{
+    background-color: skyblue;
+}
+html code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOTO GALLERY</title>
+    <link rel="stylesheet" href="VIDEOS.css">
+    <h1>VIDEOS</h1>
+    <video autoplay muted>
+        <source src="enemy.mp4"width="150" height="150">
+        </video>
+        <video controls>
+            <source src="enemy1.mp4"width="150" height="150">
+            </video>
+            
+        
+</head>
+<body>
+css code:
+h1{
+    color: tomato;
+    font-size: 30px;
+    margin-left: 500px;
+}
