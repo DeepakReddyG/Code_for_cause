@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NURSERY</title><link rel="stylesheet" href="Nursery.scc">
+    
+
+</head>
+<body>
+    <div class="nav">
+    <a href="Home.html">HOME</a>
+    <a href="Info.html">INFO</a>
+    <a href="Advantages.html">ADVANTAGES</a>
+    <a href="Conditions.html">CONDITIONS</a>
+    </div>
+    <h1>PLANT NURSERY</h1>
+</body>
+</html>
