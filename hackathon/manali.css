@@ -1,0 +1,45 @@
+.trek a {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 12%;
+}
+.raft a {
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 12%;
+}
+.para a {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 12%;
+}
+.tr h2{
+    position: absolute;
+    color: red;
+    margin-left: 18%;
+    margin-top: 30%;
+}
+.rft h2{
+    position: absolute;
+    color: red;
+    margin-left: 69%;
+    margin-top: 30%;
+}
+.par h2{
+    text-decoration: none;
+    color: red;
+    margin-left: 44%;
+    margin-top: 30%;
+}
+.fin h2{
+    background-color: aliceblue;
+}
+.fin h3{
+    background-color: aliceblue;
+}
+h1{
+    position: absolute;
+    font-size: 50px;
+    margin-left: 15%;
+    margin-top: 3%;
+}
