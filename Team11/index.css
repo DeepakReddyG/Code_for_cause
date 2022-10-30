@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("photo.jpeg");
+    height: 100vh;
+    background-size: cover;
+}
+.nav{
+    background-color:black;
+    padding:5px;
+    
+}
+.nav img{
+    height:40px;
+    width:40px;
+    background-color:white;
+    color: #ffffff;
+   
+}
+
+.nav a{
+    text-align:left;
+    color:white;
+    text-decoration:none;
+    margin:10px;
+}
+.button{
+    border-radius:0px;
+    margin-left:10px;
+    border-radius:8px;
+    background-color:skyblue;
+    width:100px;
+}
+.logo{
+    width:200px;
+    height:200px;
+    margin-bottom:200px;
+}
+
+.photoblog-card {
+    text-align: center;
+    background-color:black;
+    padding: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.main-heading {
+    font-family:"Bree-serif";
+    font-weight:bold;
+    color:white;
+}
+
+.paragraph {
+    font-family: "Roboto";
+    color:white;
+     font-style:italic;
+}
+
+.button {
+    color: white;
+    background-color: #25b1cc;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+
+
+.conta{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-rows:100px 300px;
+    grid-gap:10px;
+    grid-auto-flow: dense;
+}
+
+.gallery-item{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+
+.gallery-item .image{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.gallery-item .image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position:50% 50%;
+    cursor:pointer;
+    transition:.5s ease-in-out;
+}
+.gallery-item:hover .image img{
+    transform:scale(1.5);
+}
+
+.gallery-item .text{
+    opacity:0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:#fff;
+    font-size:25px;
+    pointer-events:none;
+    z-index:4;
+    transition: .3s ease-in-out;
+    -webkit-backdrop-filter: blur(5px) saturate(1.8);
+    backdrop-filter: blur(5px) saturate(1.8);
+}
+
+.gallery-item:hover .text{
+    opacity:1;
+    animation: move-down .3s linear;
+    padding:1em;
+    width:100%;
+}
+
+.w-1{
+    grid-column: span 1;
+}
+.w-2{
+    grid-column: span 2;
+}
+.w-3{
+    grid-column: span 3;
+}
+.w-4{
+    grid-column: span 4;
+}
+.w-5{
+    grid-column: span 5;
+}
+.w-6{
+    grid-column: span 6;
+}
+
+.h-1{
+    grid-row: span 1;
+}
+.h-2{
+    grid-row: span 2;
+}
+.h-3{
+    grid-row: span 3;
+}
+.h-4{
+    grid-row: span 4;
+}
+.h-5{
+    grid-row: span 5;
+}
+.h-6{
+    grid-row: span 6;
+}
+
+
+
+
+@media screen and (max-width:500px){
+    .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .w-1,.w-2,.w-3,.w-4,.w-5,.w-6{
+        grid-column:span 1;
+    }
+}
+
+
+@keyframes move-down{
+
+    0%{
+        top:10%;
+    }
+    50%{
+        top:35%;
+    }
+    100%{
+        top:50%;
+    }
+}
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+#button-addon1 {
+    color: #ffc371;
+  }
+  
+  i {
+    color: #ffc371;
+  }
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
+  
