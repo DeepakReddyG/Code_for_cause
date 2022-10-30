@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>STATED.</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="realestate.css" type="text/css" rel="Stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+    <div id="header-hero-container">
+        <header>
+            <div class="flex container">
+                <a id="logo" href="#">KL REAL ESTATE</a>
+                <nav>
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+                    <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                            <li class="nav__item"><a href="#services" class="nav__link">TEACHING</a></li>
+                            <li class="nav__item"><a href="#menu" class="nav__link">Profession</a></li>
+                            <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                            <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section id="hero">
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">About us</span>
+                        <div class="fade"></div>
+                        <div class="hero-text">
+                            <h1>Buy and sell real estate properties</h1>
+                            <p>“ The best investment on Earth is earth.”</p>
+                        </div>
+            </section>
+    </div>
+    <section id="how-it-works">
+        <div class="container">
+            <h2>Management</h2>
+            <div class="flex">
+                <div>
+                    <span class="fas fa-home"></span>
+                    <h4>Find a Property?</h4>
+                    <p>If you are interested in purchasing a home or locate a rental property, you can search India properties using our portal to find the right residential property</p>
+                </div>
+
+                <div>
+                    <span class="fas fa-dollar-sign"></span>
+                    <h4>Buy a Property.</h4>
+                    <p> It describes who you are and why you're different. Think of a real estate bio as your first impression, and use it</p>
+                </div>
+
+                <div>
+                    <span class="fas fa-chart-line"></span>
+                    <h4>Investing.</h4>
+                    <p>When looking for investment options, there are many choices for where to put your money. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    </section>
+
+    <section id="properties">
+        <div class="container">
+            <h2>Properties</h2>
+            <div id="properties-slider" class="slick">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO9nlQccrX7APv53c4HOgdUenH1efp1YogOA&usqp=CAU" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">3.4Crs</p>
+                        <span class="beds">6 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>
+                            Kl University Vijaywada.
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/property_2.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">5.6 Crs</p>
+                        <span class="beds">8 beds</span>
+                        <span class="baths">8 baths</span>
+                        <span class="sqft">5,250 sqft.</span>
+                        <address>
+                            Kothapeta, Tenali.
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/property_3.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">2.3 Crs</p>
+                        <span class="beds">3 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">2,250 sqft.</span>
+                        <address>
+                            Gandhi nagar ,Mangalagiri.
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="data:image/jpeg;base64,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" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">5Crs</p>
+                        <span class="beds">4 beds</span>
+                        <span class="baths">3 baths</span>
+                        <span class="sqft">3,250 sqft.</span>
+                        <address>
+                            Gollapudi, Vijayawada.
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://www.kindpng.com/picc/m/148-1481462_indian-building-images-png-transparent-png.png" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">1.5Crs</p>
+                        <span class="beds">3 beds</span>
+                        <span class="baths">2 baths</span>
+                        <span class="sqft">1,250 sqft.</span>
+                        <address>
+                            Mini bypass, Nellore.
+                        </address>
+                    </div>
+                </div>
+            </div>
+
+            <button class="rounded">View All Property Listings</button>
+        </div>
+    </section>
+
+    <section id="agents">
+        <div class="container">
+            <h2>Agents</h2>
+            <p class="large-paragraph">PAVAN And KARTHIK are the agents in our Company</p>
+
+            <div class="flex">
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_1.jpg" alt="Realtor 1" />
+                    <h3>Pathan Reshma</h3>
+                    <p>Real Estate Management</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_2.jpg" alt="Realtor 1" />
+
+                    <h3>Dhruva</h3>
+                    <p>Real Estate Head Of department</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_3.jpg" alt="Realtor 1" />
+                    <h3>K Gnaneshwar</h3>
+                    <p>Real Estate Property Manager</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_4.jpg" alt="Realtor 1" />
+                    <h3>Pavan Kumar</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_5.jpg" alt="Realtor 1" />
+                    <h3>Karthik</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_6.jpg" alt="Realtor 1" />
+                    <h3>Stuart Redman</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="the-best">
+        <div class="flex container">
+            <img src="https://onclickwebdesign.com/wp-content/uploads/property_1.jpg" alt="Property 1" />
+            <div>
+                <h2>Top 5 list from the survey companies</h2>
+                <p class="large-paragraph">Kl real estate developer is driven by tech, and their online presence makes that abundantly clear. When users first enter the site, they are greeted with a deconstructed, three-dimensional model of a home. As they scroll, the pieces slowly and smoothly come together in an impressive display of animation, revealing a high-res GIF of a fully-formed luxury property. The rest of the site offers project examples and easy-to-digest information, all packaged with an innovative, high-tech aesthetic that stays on-brand.</p>
+                <p>.</p>
+                <ul>
+                    <li>Kl Real estate</li>
+                    <li>Dhruva</li>
+                    <li> Tata</li>
+                    <li> Kategora</li>
+                    <li> Bergen</li>
+                </ul>
+                <button class="rounded">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="flex">
+                <div>
+                    <div class="fas fa-home"></div>
+                    <div class="services-card-right">
+                        <h3>Search Property</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-dollar-sign"></div>
+                    <div class="services-card-right">
+                        <h3>Buy Property</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-chart-line"></div>
+                    <div class="services-card-right">
+                        <h3>Investing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Clients Are Saying</h2>
+            <div id="testimonials-slider">
+                <div>
+                    <p>
+                        "Worked with one of her associates, very professional and sold my place in three days!!!!! I would recommend using Pam for future listings! They took great pictures and kept me well informed throughout the whole deal."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+
+            <div class="flex">
+                <div id="form-container">
+                    <h3>Feedback :-</h3>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" />
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" />
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" />
+
+                        <label for="message">Message</label>
+                        <textarea id="message">Write your message here..</textarea>
+
+                        <button class="rounded">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
