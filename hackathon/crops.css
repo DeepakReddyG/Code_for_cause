@@ -1,0 +1,19 @@
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.h-center{
+    text-align: center;
+    font-size:55px;
+}
+.font{
+    font-size: 35px;
+}
+.fonts{
+    font-size: 45px;
+}
+body{
+    background-color: aquamarine;
+}
