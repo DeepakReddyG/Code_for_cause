@@ -1,0 +1,239 @@
+HTML CODE 
+<!doctype html>
+<html>
+    <head>
+        <title>
+            PHOTO GALLERY</title>
+    </head>
+    <body>
+      
+       <img src="gallerylogo.jpg" width="200",height="200">
+       <h1>WELCOME TO GALLERY</h1> 
+       
+        <link rel="stylesheet" href="index.css">
+        <div class="nav"></div>
+            <a href="travel landscape.html">travel landscape</a>&nbsp &nbsp
+            <a href="freedom fighters.html">freedom fighter</a>&nbsp &nbsp
+            <a href="electronic gadgets.html">electroinc gadgets</a>&nbsp &nbsp
+            <a href="beautiful nature images.html">beautiful nature images</a>&nbsp &nbsp
+            <a href="automobiles.html">auto moblies</a>
+
+          
+  </body>
+  </html>
+  
+  CSS CODE
+                           
+              h1{
+   margin-left: 35%;
+    color: red;
+    border: 20px solid;
+    font-size: 500%;
+    
+}
+
+
+body{
+    background-color: aqua;
+    background-image:url('new1.jpg');
+}
+    .nav  {
+   
+        text-decoration: none;
+        font-size: 200%;
+        margin-left: 50%;
+        color: brown ;
+        padding: 30px;
+    }
+    
+    HTML CODE
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>travel landscape</title>
+    <link rel="stylesheet" href="travel landscape.css">
+</head>
+<body>
+    <h2>BEAUTIFUL TRAVEL LANDSCAPE IMAGES</h2>
+    <img src="travel1.jpg" width="600",height="600">   <img src="travel2.jpg" width="600",height="600">
+    <img src="travel3.jpg" widht="600",height="600">  <img src="travel4.jpg" width="600",height="600"><img src="travel5.jpg" width="600",height="600">
+   <video controls>
+    <source src="video3.mp4" width="10",height="10">
+
+   </video>
+   <video controls>
+    <source src="video4.mp4" width="10",height="10">
+    
+   </video>
+</body>
+</html>
+
+CSS CODE
+.travel{
+     margin-top: 100%;
+
+}
+h2{
+    margin-left: 30%;
+    
+    color:orange;
+    font-size: 300%;
+}
+body{
+    background-color: green;
+}
+div {
+    width: 100%;
+    height: 400px;
+    background-image: url('new2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid red;
+  }
+  
+  
+HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freedom fighters</title>
+    <link rel="stylesheet" href="freedom fighters.css">
+</head>
+<body>
+    <h2>Famous Freedom Fighters In India</h2>
+    <img src="fighter1.jpg" width="500",height="500">
+    <img src="fighter2.jpg" width="500",height="500">
+    <img src="fighter3.jpg" width="500",height="500">
+    <img src="fighter4.jpg" width="500",height="500"> <img src="fighter5.jpg" width="500",height="500"> 
+    <img src="fighter5.jpg" width="500",height="500">
+    <a href="https://yts1.us/indian-freedom-fighter-reg4n">link here</a>
+    
+    </body>
+</html>
+CSS CODE
+h2{
+    color: blue;
+    font-size: 300%;
+}
+body{
+    background-color: tomato;
+}
+HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>electronic gadgets</title>
+    <link rel="stylesheet" href="electronic gadgets.css">
+</head>
+<body>
+    <h2>Many No Of Electronic Gadgets</h2>
+    <img src="gadget1.jpg" width="300",height="300">
+    <img src="gadget2.jpg" width="300",height="300">
+    <img src="gadget3.jpg" width="300",height="300">
+    <img src="gadget4.jpg" width="300",height="300"> 
+    <img src="gadget5.jpg" width="300",height="300">
+    <a href="https://www.pexels.com/search/videos/gadgets/">link for videos</a>
+</body>
+<html>
+CSS CODE
+h2{
+    color:royalblue;
+    font-size: 300%;
+    margin-left: 30%;
+}
+body{
+    
+    background-color: burlywood;
+}
+div {
+    width: 100%;
+    height: 400px;
+    background-image: url('gadgets2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid red;
+
+    width: 100%;
+    height: 400px;
+    background-image: url('gadgets3.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid blue;
+  
+  }
+
+HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beautiful nature images</title>
+    <link rel="stylesheet" href="beautiful natural images.css">
+</head>
+<body>
+    <h2>WONDERFUL AND PEACEFUL IMAGES</h2>
+    <img src="nature1.jpg" width="500",height="500">
+    <img src="nature2.jpg" width="500",height="500">
+    <img src="nature3.jpg" width="500",height="500">
+    <img src="nature4.jpg" width="500",height="500"> <img src="nature6.jpg" width="500",height="500"> 
+    <img src="nature5.jpg" width="500",height="500">
+    <video controls>
+        <source src="video5.mp4">
+    </video>
+    <a href="https://www.pexels.com/search/videos/nature/">link for more videos</a>
+</body>
+</html>
+CSS CODE
+h2{
+    color:pink;
+    font-size: 300%;
+    margin-left: 20%;
+}
+body{
+    background-color: goldenrod;
+}
+HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>automobiles</title>
+    <link rel="stylesheet" href="automobiles.css">
+</head>
+<body>
+    <h2>AUTOMOBILES</h2>
+    <img src="auto1.jpg" width="500",height="500">
+    <img src="auto2.jpg" width="500",height="500">
+    <img src="auto5.jpg" width="500",height="500">
+    <img src="auto3.jpg" width="500",height="500">
+    <img src="auto4.jpg" width="500",height="500"> 
+    <img src="auto5.jpg" width="500",height="500">
+</body>
+</html>
+
+CSS CODE
+h2{
+    color:yellow;
+    font-size: 300%;
+    margin-left: 30%;
+}
+body{
+    background-color: yellowgreen;
+}
+
+
+    
+    
