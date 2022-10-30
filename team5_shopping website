@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> craze lab online shopping</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+<body>
+
+<div class="icon-bar">
+  <a class="active" href="https://www.amazon.in/ref=nav_logo"><i class="fa fa-home"></i></a> 
+  <a href="https://www.amazon.in/"><i class="fa fa-search"></i></a> 
+  <a href="#"><i class="fa fa-envelope"></i></a> 
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-trash"></i></a> 
+</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+</style>
+</head>
+<body>
+
+<p>Click on the Menu Icon to transform it to "X":</p>
+<div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+
+<script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.notification {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h1>Notification Button</h1>
+
+<a href="https://mail.google.com/mail/u/0/#inbox" class="notification">
+  <span>Inbox</span>
+  <span class="badge">3</span>
+</a>
+
+
+<ul id="myMenu">
+  <li><a href="https://www.meesho.com/casual-shoes-men/pl/3m2">slippers</a></li>
+  <li><a href="https://www.meesho.com/palazzo-pants/pl/3jb">palazzos</a></li>
+  <li><a href="https://www.meesho.com/search?q=forks&searchType=manual&searchIdentifier=text_search">longforks</a></li>
+  <li><a href="https://www.meesho.com/search?q=smartwatch&searchType=POPULAR_SEARCHES&searchIdentifier=text_search">watches</a></li>
+  <li><a href="https://www.meesho.com/search?q=hoodies&searchType=manual&searchIdentifier=text_search">hoodies</a></li>
+  <li><a href="https://www.meesho.com/jeans-men/pl/3nw">jeans</a></li>
+  <li><a href="https://www.meesho.com/search?q=crop%20top&searchType=autosuggest&searchIdentifier=text_search">croptops</a></li>
+  <li><a href="https://www.myntra.com/cold-shoulder-top">coldsholders</a></li>
+  <li><a href="https://www.meesho.com/topwear-men/pl/3tc">t-shirts</a></li>
+</ul>
+<div id="i9Fv5AN74kFyZzdcu7EDsw" class="a-cardui fluid-quad-card fluid-card fluid-quad-image-label fluid-quad-image-label" data-a-card-type="basic"><div class="a-cardui-header"><h2 class="a-color-base headline truncate-2line">Shop by Category</h2></div><div class="a-cardui-body"><div class="a-section a-spacing-small grid-row-1"><div class="a-section a-spacing-none quadrant-container quadrant-container-0"><a aria-label="Fresh" class="a-link-normal image-redirect aok-block image-window" href="https://www.amazon.in/alm/storefront?almBrandId=ctnow&amp;pf_rd_r=DMX3WNP28EP9P15TFHV0&amp;pf_rd_p=dbcfb001-76fa-49bc-ada6-a13d343a1124"><div class="a-section a-spacing-none fluid-image-container"><img alt="Fresh" src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Fresh._SY116_CB431401553_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Fresh._SY232_CB431401553_.jpg"></div><div class="a-section a-spacing-none image-label aok-inline-block aok-align-center"><span class="a-size-small a-color-base truncate-2line">Fresh</span></div></a></div><div class="a-section a-spacing-none quadrant-container quadrant-container-1"><a aria-label="Mobiles" class="a-link-normal image-redirect aok-block image-window" href="/b/?ie=UTF8&amp;node=1389401031"><div class="a-section a-spacing-none fluid-image-container"><img alt="Mobiles" src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Mobile._SY116_CB431401553_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Mobile._SY232_CB431401553_.jpg"></div><div class="a-section a-spacing-none image-label aok-inline-block aok-align-center"><span class="a-size-small a-color-base truncate-2line">Mobiles</span></div></a></div></div><div class="a-section grid-row-2"><div class="a-section a-spacing-none quadrant-container quadrant-container-0"><a aria-label="Fashion" class="a-link-normal image-redirect aok-block image-window" href="/b?node=6648217031"><div class="a-section a-spacing-none fluid-image-container"><img alt="Fashion" src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Fashion._SY116_CB431401553_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Fashion._SY232_CB431401553_.jpg"></div><div class="a-section a-spacing-none image-label aok-inline-block aok-align-center"><span class="a-size-small a-color-base truncate-2line">Fashion</span></div></a></div><div class="a-section a-spacing-none quadrant-container quadrant-container-1"><a aria-label="Electronics" class="a-link-normal image-redirect aok-block image-window" href="/b?node=976419031"><div class="a-section a-spacing-none fluid-image-container"><img alt="Electronics" src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Electronic._SY116_CB431401553_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Electronic._SY232_CB431401553_.jpg"></div><div class="a-section a-spacing-none image-label aok-inline-block aok-align-center"><span class="a-size-small a-color-base truncate-2line">Electronics</span></div></a></div></div></div><div class="a-cardui-footer"><a class="a-link-normal see-more truncate-1line" href="/gp/site-directory?ref_=nav_em_0_1_1_21_sbc_fullstore">See more</a></div></div>
+ <a href="https://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CRz_ijD5LY5LRCoaQrQG_qaXoC6S3jftsuOK-rvYQlP_BhKE2EAEgjr2eHGDlgoCAmA6gAZX04NUDyAECqQJr9Re_CBNKPuACAKgDAcgDCKoEswJP0AiNIKE9BXCJPcr0vZ-jwvJikjmJz3V4BZ-UPAx-4VifrazkGsemfCAGZZW84CaSZCTqnwLDf_KA11Me12K79IVGRnqX4PnhCbUpI6Fe4VxpVpLyxjD_L9JmAU291vQsZ0vjSfjZpc8g06BHintVt9Y4inyxGdqib1TfKpH7E8gTFYnMuOAL0jyPapeaBf7ySXvbsrNgRZytv4h1ruK1iiuI3Yfwoj08PkyOZhsyioeR1-fDQ_Md_fVtvyW12F3UP2UOWOibc73nQjt1jJYeEp9DRHLor2JkKUTtjouREuoooG8fOWrmLE6BTojEqKIfHsP0omMnjwCXv0eXKsQTNUp4BBUxKgyf4VTB_-KnN0LkbXsCsDkNXByXq-4bVPKy0d6y183XZLEnQ5JA5P2RGlzfwATVj7DVkgTgBAGgBgKAB__33hSoB47OG6gHk9gbqAfulrECqAf-nrECqAeko7ECqAfVyRuoB6a-G6gHmgaoB_PRG6gHltgbqAeqm7ECqAf_nrECqAffn7EC2AcB0ggPCIBhEAEYHTICigI6AoBA8ggbYWR4LXN1YnN5bi02NDE4MTk4NzAyNTU2OTM3sQlOepHrNOgRqoAKA5gLAcgLAbgMAdgTA9AVAfgWAYAXAQ&amp;ae=1&amp;num=1&amp;cid=CAQSPADq26N9jQswA8ZHicWv6qwDj2YTsWLcGDYQ5fE2OD0Skx5Ph6GDbz8QfnICt83XdJCXsp3OyMoN7ICLvRgBIA4&amp;sig=AOD64_1VagItZGqI7Ke6MNe3LYzd5L5GtQ&amp;client=ca-pub-4276969157128104&amp;nx=CLICK_X&amp;ny=CLICK_Y&amp;uap=UACH(platform)&amp;uapv=UACH(platformVersion)&amp;uaa=UACH(architecture)&amp;uam=UACH(model)&amp;uafv=UACH(uaFullVersion)&amp;uab=UACH(bitness)&amp;uaw=UACH(wow64)&amp;uafvl=UACH(fullVersionList)&amp;nb=2&amp;adurl=https://www.lg.com/in/microwave-ovens%3Futm_source%3DGDN%26utm_medium%3Ddisplay%26utm_campaign%3DIN_HA_MO_IN_22_Q4_PHD_LG-HA-MWO-Progt-RTB-Oct22_lg.com_GDN-AAZ349157-CI-51086001813-14-Oct-2022%26gclid%3DEAIaIQobChMIkseZma7j-gIVBkgrCh2_VAm9EAEYASAAEgIxOfD_BwE" id="aw0" on="tap:exit-api.exit(target='landingPage',_googClickLocation='2')" target="_blank"><amp-img alt="" class="img_ad i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-element i-amphtml-built i-amphtml-layout" height="120" i-amphtml-layout="fixed" i-amphtml-ssr="" src="https://tpc.googlesyndication.com/simgad/5515370151313615674?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&amp;rs=AOga4qltAEak-jSC9PCIMyaB1xO1qqs_Rg" style="width:970px;height:120px;" width="970"><img alt="" class="i-amphtml-fill-content i-amphtml-replaced-content" decoding="async" src="https://tpc.googlesyndication.com/simgad/5515370151313615674?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&amp;rs=AOga4qltAEak-jSC9PCIMyaB1xO1qqs_Rg"></amp-img></a>
+<amp-img alt="" class="img_ad i-amphtml-layout-fixed i-amphtml-layout-size-defined i-amphtml-element i-amphtml-built i-amphtml-layout" height="120" i-amphtml-layout="fixed" i-amphtml-ssr="" src="https://tpc.googlesyndication.com/simgad/5515370151313615674?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&amp;rs=AOga4qltAEak-jSC9PCIMyaB1xO1qqs_Rg" style="width:970px;height:120px;" width="970"><img alt="" class="i-amphtml-fill-content i-amphtml-replaced-content" decoding="async" src="https://tpc.googlesyndication.com/simgad/5515370151313615674?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&amp;rs=AOga4qltAEak-jSC9PCIMyaB1xO1qqs_Rg"></amp-img>
+<img alt="" class="i-amphtml-fill-content i-amphtml-replaced-content" decoding="async" src="https://tpc.googlesyndication.com/simgad/5515370151313615674?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&amp;rs=AOga4qltAEak-jSC9PCIMyaB1xO1qqs_Rg">
+</amp-img>
+</a>
+<img src="https://m.media-amazon.com/images/G/31/img19/AMS/Houseads/Laptops-Sept2019._CB436595915_.jpg" width="10%" height="auto" alt="Laptops">
+<div class="TopCategories__HomeBannerUnoWrapper-sc-9t97m4-0 hlXyVY">
+    <div class="TopCategories__PosterBig-sc-9t97m4-1 hlJauj">
+        <picture class="ImageView__StyledPicture-h22804-0 jYIgsy">
+            <source media="only screen and (min-width: 78px)" srcset="https://images.meesho.com/images/marketing/1649760442043.webp" type="image/webp">
+            <source media="only screen and (max-width: 40px)" srcset="" type="image/webp">
+            <img style="object-fit:contain" src="" alt="womenWear" width="10%" height="10%" loading="lazy" decoding="async">
+        </picture></div><div class="TopCategories__SmallPosterContainer-sc-9t97m4-2 fLzhjk"><div class="TopCategories__SmallPoster-sc-9t97m4-3 SJWHu">
+            <picture class="ImageView__StyledPicture-h22804-0 jYIgsy"><source media="only screen and (min-width: 78px)" srcset="https://images.meesho.com/images/marketing/1649760423313.webp" type="image/webp">
+                <source media="only screen and (max-width: 40px)" srcset="" type="image/webp"><img style="object-fit:contain" src="" alt="mensWear" width="10%" height="10%" loading="lazy" decoding="async">
+            </picture></div><div class="TopCategories__SmallPoster-sc-9t97m4-3 SJWHu"><picture class="ImageView__StyledPicture-h22804-0 jYIgsy"><source media="only screen and (min-width: 78px)" srcset="https://images.meesho.com/images/marketing/1649759799809.webp" type="image/webp">
+                <source media="only screen and (max-width: 48px)" srcset="" type="image/webp"><img style="object-fit:contain" src="" alt="kidsWear" width="10%" height="10%" loading="lazy" decoding="async"></picture></div></div></div>
+                <img src="https://m.media-amazon.com/images/G/31/AMS/IN/970X250-_desktop_banner.jpg" width="100%" height="auto" alt="Home Products">
+<div color="white" class="Card__BaseCard-b3n78k-0 bIfY
+<button id="background_exit_dc" onclick="window.open(window.clickTag)"></button>
+<img alt="Beauty" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC-PFF/PFF-4-186-116._SY116_CB636055991_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC-PFF/PFF-4-372-232._SY232_CB636055991_.jpg">
+<div class="middle"></div><div id="eg5zNwQK9VgUUOzDMmlo9g" class="a-cardui fluid-quad-card fluid-card fluid-quad-image-label fluid-quad-image-label" data-a-card-type="basic"><div class="a-cardui-header"><h2 class="a-color-base headline truncate-2line">Up to 60% off | Styles for Men</h2></div><div class="a-cardui-body"><div class="a-section a-spacing-small grid-row-1"><div class="a-section a-spacing-none quadrant-container quadrant-container-0"><a aria-label="Clothing" class="a-link-normal image-redirect aok-block image-window" href="/s/ref=mega_sv_s23_2_1_1_1?rh=i%3Aapparel%2Cn%3A1968024031&amp;ie=UTF8&amp;lo=apparel"><div class="a-section a-spacing-none fluid-image-container"><img alt="Clothing" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-1-186-116._SY116_CB636110853_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-1-372-232._SY232_CB636110853_.jpg"></div><div class="a-section a-spacing-none image-label aok-inline-block aok-align-center"><span class="a-size-small a-color-base truncate-2line">Clothing</span></div></a></div><div class="a-section a-spacing-none quadrant-container quadrant-container-1"><a aria-label="Footwear" class="a-link-normal image-redirect aok-block image-window" href="/b?node=1983518031"><div class="a-section a-spacing-none fluid-image-container"><img alt="Footwear" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-2-186-116._SY116_CB636110853_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-2-372-232._SY232_CB636110853_.jpg"></div><div class="a-section a-spacing-none image-label aok-inline-block aok-align-center"><span class="a-size-small a-color-base truncate-2line">Footwear</span></div></a></div></div><div class="a-section grid-row-2"><div class="a-section a-spacing-none quadrant-container quadrant-container-0"><a aria-label="Watches" class="a-link-normal image-redirect aok-block image-window" href="/b?node=2563504031"><div class="a-section a-spacing-none fluid-image-container"><img alt="Watches" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-3-186-116._SY116_CB636110853_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-3-372-232._SY232_CB636110853_.jpg"></div><div class="a-section a-spacing-none image-label aok-inline-block aok-align-center"><span class="a-size-small a-color-base truncate-2line">Watches</span></div></a></div><div class="a-section a-spacing-none quadrant-container quadrant-container-1"><a aria-label="BAGS &amp; LUGGAGE" class="a-link-normal image-redirect aok-block image-window" href="/b?node=2454169031"><div class="a-section a-spacing-none fluid-image-container"><img alt="BAGS &amp; LUGGAGE" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-4-186-116._SY116_CB636110853_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF_4-372-232._SY232_CB636110853_.jpg"></div><div class="a-section a-spacing-none image-label aok-inline-block aok-align-center"><span class="a-size-small a-color-base truncate-2line">Bags &amp; luggage</span></div></a></div></div></div><div class="a-cardui-footer"><a class="a-link-normal see-more truncate-1line" href="/b/ref=sl_gw_feb20?node=6648217031">See all offers</a></div></div>
+<div class="middle"></div><div id="dXUwmQdVpRaA0DtLQTWBfw" class="a-cardui fluid-quad-card fluid-card fluid-quad-image-label fluid-quad-image-label" data-a-card-type="basic"><div class="a-cardui-header"><h2 class="a-color-base headline truncate-2line">Top rated, premium quality | Amazon Brands &amp; more</h2></div><div class="a-cardui-body"><div class="a-section a-spacing-small grid-row-1"><div class="a-section a-spacing-none quadrant-container quadrant-container-0"><a aria-label="Home products" class="a-link-normal image-redirect aok-block image-window" href="/b/ref=pbhmpc?node=16368877031"><div class="a-section a-spacing-none fluid-image-container"><img alt="Home products" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_1._SY116_CB606110532_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/372X232_1._SY232_CB606110532_.jpg"></div><div class="a-section a-spacing-none image-label aok-inline-block aok-align-center"><span class="a-size-small a-color-base truncate-2line">Home products</span></div></a></div><div class="a-section a-spacing-none quadrant-container quadrant-container-1"><a aria-label="Furniture" class="a-link-normal image-redirect aok-block image-window" href="/b/ref=pbfurnpc?node=15390366031"><div class="a-section a-spacing-none fluid-image-container"><img alt="Furniture" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_5._SY116_CB606110532_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/372X232_5._SY232_CB606110532_.jpg"></div><div class="a-section a-spacing-none image-label aok-inline-block aok-align-center"><span class="a-size-small a-color-base truncate-2line">Furniture</span></div></a></div></div><div class="a-section grid-row-2"><div class="a-section a-spacing-none quadrant-container quadrant-container-0"><a aria-label="Daily essentials" class="a-link-normal image-redirect aok-block image-window" href="/b/ref=pb_gw_de?node=16186117031"><div class="a-section a-spacing-none fluid-image-container"><img alt="Daily essentials" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_3._SY116_CB606110532_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/372X232_3._SY232_CB606110532_.jpg"></div><div class="a-section a-spacing-none image-label aok-inline-block aok-align-center"><span class="a-size-small a-color-base truncate-2line">Daily essentials</span></div></a></div><div class="a-section a-spacing-none quadrant-container quadrant-container-1"><a aria-label="Fashion" class="a-link-normal image-redirect aok-block image-window" href="/b/ref=spb_gw_may4?node=21251246031"><div class="a-section a-spacing-none fluid-image-container"><img alt="Fashion" src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/186X116_8._SY116_CB606110532_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img22/BAU/Oct/372X232_8._SY232_CB606110532_.jpg"></div><div class="a-section a-spacing-none image-label aok-inline-block aok-align-center"><span class="a-size-small a-color-base truncate-2line">Fashion</span></div></a></div></div></div><div class="a-cardui-footer"><a class="a-link-normal see-more truncate-1line" href="/b/ref=pb_gw?node=21488157031">See more</a></div></div></div>
+    <div class="a-cardui gw-sign-in sign-in-v2" data-a-card-type="basic" id="82nTjZc8P-IPi0jo3YKrCw"><div class="a-cardui-header"><h2 class="a-color-base headline"><span class="a-truncate" data-a-word-break="normal" data-a-max-rows="2" data-a-overflow-marker="&amp;hellip;" style="line-height:1.3em !important;max-height:2.6em" data-a-recalculate="false" data-a-updated="true"><span class="a-truncate-full a-offscreen">Sign in for your best experience</span><span class="a-truncate-cut" aria-hidden="true" style="height: auto;">Sign in for your best experience</span></span></h2></div><div class="a-cardui-body"><span id="gw-sign-in-button" class="a-button a-spacing-top-mini a-button-span12 a-button-primary sign-in-button"><span class="a-button-inner"><a href="https://www.amazon.in/ap/signin?openid.mode=checkid_setup&amp;openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fref%3Dgw_sgn_ib%3F_encoding%3DUTF8%26pf_rd_p%3Dfbdb7d55-6625-4e0c-8976-71cf61749c69%26pd_rd_wg%3DrKGD8%26pf_rd_r%3D2N2YZ2MS9ZTNXX0Z7VG9%26content-id%3Damzn1.sym.fbdb7d55-6625-4e0c-8976-71cf61749c69%26pd_rd_w%3DBuu67%26pd_rd_r%3D21ac3c7d-70c7-4e49-8587-77f11b63e106&amp;openid.assoc_handle=inflex&amp;openid.pape.max_auth_age=0" class="a-button-text">Sign in securely</a></span></span></div></div>
+    <div id="sIZzxRQmWyQNShGpkYSfFg" class="a-cardui fluid-quad-card fluid-card fluid-quad-image-label fluid-quad-image-label" data-a-card-type="basic"><div class="a-cardui-header"><h2 class="a-color-base headline truncate-2line">Office software, headphones &amp; more | Starting ₹25</h2></div><div class="a-cardui-body"><div class="a-section a-spacing-small grid-row-1"><div class="a-section a-spacing-none quadrant-container quadrant-container-0"><a aria-label="Up to 50% off | Antivirus" class="a-link-normal image-redirect aok-block image-window" href="/b/ref=sw_xcat_antivirus?ie=UTF8&amp;node=5490081031"><div class="a-section a-spacing-none fluid-image-container"><img alt="Up to 50% off | Antivirus" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/VGSW/Q4/PC_QuadCard_372X232_SWCAT_SW_1_1x._SY116_CB606557104_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img21/VGSW/Q4/PC_QuadCard_372X232_SWCAT_SW_1_2x._SY232_CB606557104_.jpg"></div><div class="a-section a-spacing-none image-label aok-inline-block aok-align-center"><span class="a-size-small a-color-base truncate-2line">Up to 50% off | Antivirus</span></div></a></div><div class="a-section a-spacing-none quadrant-container quadrant-container-1"><a aria-label="Microsoft Office suites" class="a-link-normal image-redirect aok-block image-window" href="/s?i=software&amp;bbn=976451031&amp;rh=n%3A976451031%2Cp_85%3A10440599031%2Cp_n_availability%3A1318485031&amp;hidden-keywords=B08C85TW76%7CB08C85M8SC%7CB08C858V16%7CB08C8752NL%7CB08C85B28L%7CB08C85RHTT"><div class="a-section a-spacing-none fluid-image-container"><img alt="Microsoft Office suites" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/VGSW/Q4/PC_QuadCard_372X232_SWCAT_SW_2_1x._SY116_CB606557104_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img21/VGSW/Q4/PC_QuadCard_372X232_SWCAT_SW_2_2x._SY232_CB606557104_.jpg"></div><div class="a-section a-spacing-none image-label aok-inline-block aok-align-center"><span class="a-size-small a-color-base truncate-2line">Microsoft Office suites</span></div></a></div></div><div class="a-section grid-row-2"><div class="a-section a-spacing-none quadrant-container quadrant-container-0"><a aria-label="Gaming laptops" class="a-link-normal image-redirect aok-block image-window" href="/stores/page/A6EEB17F-E48E-460B-9790-E975F78E38F9?channel=SCat&amp;pf_rd_m=A1VBAL9TL5WCBF&amp;pf_rd_t=30901&amp;pf_rd_i=976451031&amp;pf_rd_s=mobile-browse-hero-3&amp;pf_rd_r=ESEM5KDVGH8G26YRBPVC&amp;pf_rd_p=488b1d48-9cd2-4942-a550-ea60f1275c6d&amp;ref_=Oct_Arh_mobile-browse-hero-3_65832403-43bc-4313-b6e3-c82f7450396b"><div class="a-section a-spacing-none fluid-image-container"><img alt="Gaming laptops" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/VGSW/Q4/PC_QuadCard_372X232_SWCAT_SW_3_1x._SY116_CB606557104_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img21/VGSW/Q4/PC_QuadCard_372X232_SWCAT_SW_3_2x._SY232_CB606557104_.jpg"></div><div class="a-section a-spacing-none image-label aok-inline-block aok-align-center"><span class="a-size-small a-color-base truncate-2line">Gaming laptops</span></div></a></div><div class="a-section a-spacing-none quadrant-container quadrant-container-1"><a aria-label="Premium phones" class="a-link-normal image-redirect aok-block image-window" href="/b?ie=UTF8&amp;node=1389401031"><div class="a-section a-spacing-none fluid-image-container"><img alt="Premium phones" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/VGSW/Q4/PC_QuadCard_372X232_SWCAT_SW_4_1x._SY116_CB606557104_.jpg" class="landscape-image" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img21/VGSW/Q4/PC_QuadCard_372X232_SWCAT_SW_4_2x._SY232_CB606557104_.jpg"></div><div class="a-section a-spacing-none image-label aok-inline-block aok-align-center"><span class="a-size-small a-color-base truncate-2line">Premium phones</span></div></a></div></div></div><div class="a-cardui-footer"><a class="a-link-normal see-more truncate-1line" href="/b/ref=sw_xcat_seemore?ie=UTF8&amp;node=976451031">See more</a></div></div>
+    </html>
