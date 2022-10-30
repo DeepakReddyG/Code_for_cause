@@ -1,0 +1,33 @@
+.nav{
+    background: yellowgreen;
+    margin-left: -20px;
+    overflow: hidden;
+}
+.nav a{
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    color:black;
+    font-size:large;
+    display: block;
+    float: left;
+
+}
+.nav a:hover{
+    background: white;
+    color:yellowgreen
+}
+
+  
+  
+
+p{
+    font-size: large;
+    color: black;
+}
+h5{
+    background-color: skyblue;
+    margin-left: 25px;
+    overflow: hidden;
+    display: block;
+}
