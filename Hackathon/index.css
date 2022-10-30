@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.column{
+    float: left;
+    width:22%;
+    padding:3px;
+
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+a{
+    margin-left: 5%;
+} 
+.hello{
+    position: absolute;
+    height: 80px;
+    width: 90px;
+    margin-left: 60px;
+}
