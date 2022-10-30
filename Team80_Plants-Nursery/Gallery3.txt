@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<head>
+    <body>
+        <a href="LAST.html"> <img src="fouur.jpg" alt="name" style="width: 400px;height:200px;"> </a>
+        <a href="LAST.html"> <img src="five.jpg" alt="name" style="width:400px;height:200px;"> </a>
+        <a href="LAST.html"> <img src="six.jpg" alt="name" style="width:400px;height:200px;"> </a><br>
+    </body>
+</head>
+</html>
