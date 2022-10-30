@@ -1,0 +1,74 @@
+<html>
+<head>
+    <title>NEW VIBES 2022</title>
+
+    <link rel="stylesheet" type="text/css" href="fashion.css">
+
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrete="sha384-wvfXpqpZZVQGK6TAh5PVLGOfQNHSoD2xbE+QkPxCAFlNEEVOEH3Sn0sibVcOQVnN"crossorigin="anonymous">
+
+    <link href="htpps://fonts.googleapis.com/css?family=Great+Vibes|Mountains+of+Christmas|Shadows+Into+Light&display=swap"rel="stylesheet">
+      <link href="htpps://fonts.googleapis.com/css?family=Hanalei|Indie+Flower|Orbitron|Righteous&display=swap" rel="stylesheet">
+      <link href="htpps://fonts.googleapis.com/css?family=Barlow+Condenced|PT+Serif&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <div class="box1">
+        <ul>
+            <li><a href="">INR</a><i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            <li><a href="">English</a><i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            <li><a href="">My Account</a><i class="fa fa-angle-down" aria-hidden="true"></i></li>
+            </ul>
+
+            <h5>Free shipping on all india orders over 50RS</h5>
+        </div>
+
+        <div class="subbox">
+
+            <ol>
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">Promotion</a></li>
+            <li><a href="">Pages</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+            </ol>
+    
+            <div class="icon">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <i class="fa fa-user" aria-hidden="true"></i>
+
+                <div class="background">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <h3>4</h3>
+                </div>
+            <h2>New<font>Vibes</font></h2>
+            </div>
+        </div>
+
+
+         <div class="cover">
+         <img src="fashion02.jpeg">
+                    
+              
+                  <div class="image22">
+
+                    <img src="image22.jpeg">
+                    <link href="/men.html">
+                    <h6> Men's</h6>
+                    <div class="tex">
+                      <h1> Get up to 30% off new arrivals</h1>
+                          <h4>summer collection 2022</h4>
+                    </div>
+                    
+               <form action=""method="get">
+             <input type="submit" value="shopnow">
+                        
+             </form>
+             </div>
+             <div class="image24">
+              <img src="image24.jpeg" height="50" width="50">
+              <t> Accessorie's</t>
+              </div>  
+             </div> 
+ </html>                  
