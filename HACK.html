@@ -1,0 +1,81 @@
+<html>
+<head>
+<title></title>
+<!-- Apply styles to html elements -->
+<style>
+*{
+margin:0; padding:0; boxsizing:border-box;
+}
+header{
+width: 100%; height: 100vh;
+background-color:  rgb(82, 239, 82);
+background-repeat: no-repeat;
+background-size: cover;
+}
+nav{
+width: 100%; height: 10vh;
+background: blue;
+display: flex; justify-content: space-between;
+align-items: center;
+}
+nav .mainmenu{
+width: 40%;
+display: flex; justify-content: space-around;
+}
+main{
+width: 100%; height: 85vh;
+display: flex; justify-content: center;
+align-items: center;
+text-align: center;
+}
+section h3{
+letter-spacing: 3px; font-weight: 200;
+}
+section h1{
+text-transform: uppercase;
+}
+section div{
+animation:changeborder 10s infinite linear;
+}
+@keyframes changeborder{
+0%
+10%
+20%
+}
+</style>
+</head>
+<body>
+<!--Let us create a simple menu using the navigation tags-->
+<!--Use header to indicate that manu will be a part of header -->
+<header>
+<nav>
+<div class = "logo" <h3 style="color:white;">MYLOGO</h3></div>
+<!--Lets define the menu items now-->
+<div class = "mainmenu">
+<a href="https://hackr.io/tutorials/learn-html-5">Home</a>
+<a href="https://hackr.io/tutorials/learn-html-5">About Us</a>
+<a href="https://hackr.io/tutorials/learn-html-5">Contact Us</a>
+</div>
+</nav>
+<!--Let us create the main section now, if you are not using html5, use div tags-->
+<main>
+<section>
+<!--Check out the styling elements for this div class - change_text -->
+<div class = "change_text"><b>REAL ESTATE MANAGEMENT SYSTEM</b></div>
+<!--make text italic-->
+<p><i>Your gate way to a richer life</i></p><br>
+<!--create a button, if there is a form, you can specify an action on click-->
+<input type = button value = "view more">
+<img src="01.JPG".type="01/jpg" style="width:180px;height:180px;">
+<a data-image = "01.JPG" href=""> Home</a>
+<p>Real estate is property consisting of land and the buildings on it, along with its natural resources such as crops, minerals or water; immovable property of this nature; an interest vested in this (also) an item of real property, (more generally) buildings or housing in general. In terms of law, real is in relation to land property and is different from personal property while estate means the "interest" a person has in that land property.
+
+    Real estate is different from personal property, which is not permanently attached to the land, such as vehicles, boats, jewelry, furniture, tools and the rolling stock of a farm.
+    
+    In the United States, the transfer, owning, or acquisition of real estate can be through business corporations, individuals, nonprofit corporations, fiduciaries, or any legal entity as seen within the law of each U.S. state.</p>
+<img src="02.JPG".type="02/jpg">  
+</section>
+</main>
+</header>
+</body>
+</html>
