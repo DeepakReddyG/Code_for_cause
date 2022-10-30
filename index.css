@@ -1,0 +1,31 @@
+h1{
+    color: green;
+    font-style: initial;
+    margin-left: 40%;
+    font-size: xx-large;
+}
+h2{
+    margin-left: auto;
+}
+marquee{
+    color: white;
+    background-color: black;
+    
+}
+.nav{
+    text-decoration: solid;
+    color: aquamarine;
+    margin-left:  %;
+    border: 2px solid darkgreen;
+    padding: 30px;
+    font-size: larger;
+}
+body{  
+    background-image: url('bgimage.png');  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.nav image{
+    width:0%
+}
