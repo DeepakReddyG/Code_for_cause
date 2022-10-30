@@ -1,0 +1,12 @@
+body{
+    background-color:lightcyan;
+}
+h1{
+    padding-left: 550px;
+    color:forestgreen;
+}
+.nav a{
+    text-decoration: none;
+    padding-left: 200px;
+    color:crimson;
+}
