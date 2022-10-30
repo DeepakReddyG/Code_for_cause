@@ -1,0 +1,9 @@
+body
+{
+    background-image: "Backgrnd.jpeg";
+}
+h1
+{
+    border-left: 50%;
+    font-family: 'Times New Roman', Times, serif;
+}

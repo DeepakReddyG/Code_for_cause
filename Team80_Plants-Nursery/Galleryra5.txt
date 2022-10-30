@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<head>
+    <body>
+        <p><b>Click on any picture which you want to order.</b></p>
+    <a href="LAST.html"> <img src="sixx.jpg" alt="name" style="width: 400px;height:200px;"> </a>
+    <a href="LAST.html"> <img src="on.jpg" alt="name" style="width:400px;height:200px;"> </a>
+    <a href="LAST.html"> <img src="tw.jpg" alt="name" style="width:400px;height:200px;"> </a><br>
+    </body>
+</head>
+</html>
