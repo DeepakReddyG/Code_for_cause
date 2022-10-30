@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Plant-Garden</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/icon-font.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- header-section start -->
+
+    <header class="header">
+        <div class="header_logo-box">
+            <img src="image/Logo.png" alt="logo" class="header_logo">
+        </div>
+        <div class="header_text-box">
+            <h1 class="heading_primary">
+                <span class="heading_primary--main">
+                    plant nursery
+                </span>
+                <span class="heading_primary--sub">
+                </span>
+            </h1>
+        </div>
+    </header>
+
+    <!-- header-section end -->
+
+    <navbar class="navbar">
+        <div class="row">
+            <div class="u-center-text">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><a href="#" class="navbar-link">home</a></li>
+                    <li class="navbar-item"><a href="#" class="navbar-link">about us</a></li>
+                    <li class="navbar-item"><a href="#" class="navbar-link">Categories</a></li>
+                    <li class="navbar-item"><a href="#" class="navbar-link">contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </navbar>
+
+    <main>
+        <!-- Categories section start -->
+
+        <section class="product_section">
+            <div class="u-center-text u-margin-bottom-medium">
+                <h2 class="heading_secondary">
+                    Categories
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card_side card_side--front">
+                            <div class="card_picture card_picture--1">
+                                &nbsp;
+                            </div>
+                            <h4 class="card_heading">
+                                <span class="card_heading-span card_heading-span-1">flowers</span>
+                            </h4>
+                        </div>
+                        <div class="card_side card_side--back card_side--back-1">
+                            <div class="card_cta">
+                                <div class="card_details">
+                                    <br>1.Jasmine <br>
+                                    <br>2.White Rose <br>
+                                    <br>3.Red Rose<br>
+                                    <br>4.Hibiscus<br>
+                                    <br>5.Lotus<br>
+                            
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card_side card_side--front">
+                            <div class="card_picture card_picture--2">
+                                &nbsp;
+                            </div>
+                            <h4 class="card_heading">
+                                <span class="card_heading-span card_heading-span-2">seeds</span>
+                            </h4>
+                        </div>
+                        <div class="card_side card_side--back card_side--back-2">
+                            <div class="card_cta">
+                                <div class="card_details">
+                                 <br> 1.Sun flower <br>
+                                  <br>2.Pumpkin<br>
+                                  <br>3. Rajgira Seeds<br>
+                                  <br>4.Basil Seeds<br>
+                                 <br> 5.Pomegranate Seeds<br>
+                                </div>    
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="card">
+                        <div class="card_side card_side--front">
+                            <div class="card_picture card_picture--3">
+                                &nbsp;
+                            </div>
+                            <h4 class="card_heading">
+                                <span class="card_heading-span card_heading-span-3">plants</span>
+                            </h4>
+                        </div>
+                        <div class="card_side card_side--back card_side--back-3">
+                            <div class="card_cta">
+                                <div class="card_details">
+                                  <br> 1.Almond<br>
+                                  <br> 2.Amaranth<br>
+                                  <br>  3.Amy root <br> 
+                                  <br> 4.Angel trumpet<br> 
+                                  <br>  5. Chamomile<br> 
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- product section end -->
+
+        <!-- contact section start -->
+
+        <section class="contact_section">
+            <div class="u-center-text u-margin-bottom-medium">
+                <h2 class="heading_secondary">
+                    contact us
+                </h2>
+            </div>
+            <div class="row">
+                <div class="contact">
+                    <div class="contact_box">
+                        <div class="contact_text">
+                            <p class="pname">KL SAC</p>
+                            <p>Hackathon</p>
+                            <p><i class="icon-basic-smartphone"></i> 0123456789</p>
+                            <p class="pmail"><i class="icon-basic-mail"></i> hackathon@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact section end -->
+    </main>
+
+    <!-- footer-section start -->
+
+    <footer class="footer">
+        <div class="u-center-text u-margin-bottom-medium">
+            <h2 class="heading_tertiary">
+                plant nursery
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer_navigation">
+                    <ul class="footer_list">
+                        <li class="footer_item"><a href="#" class="footer_link">Home</a></li>
+                        <li class="footer_item"><a href="#" class="footer_link">Categories</a></li>
+                        <li class="footer_item"><a href="#" class="footer_link">About us</a></li>
+                        <li class="footer_item"><a href="#" class="footer_link">contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer_copyright">
+                    built by <a href="#" class="footer_link">Team 20</a> Learning From  <a href="#" class="footer_link">Code For Cause</a>. copyright &copy; by Team 20. 
+               </p>
+            </div>
+        </div>
+        <div class="row">
+           <div class="u-center-text">
+                <div class="footer_navigation-social">
+                    <ul class="footer_list">
+                        <li class="footer_item-social"><a href="#" class="footer_link"><i class="fab fa-facebook"></i></a></li>
+                        <li class="footer_item-social"><a href="#" class="footer_link"><i class="fab fa-twitter"></i></a></li>
+                        <li class="footer_item-social"><a href="#" class="footer_link"><i class="fab fa-instagram"></i></a></li>
+                        <li class="footer_item-social"><a href="#" class="footer_link"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+    </footer>
+
+    <!-- footer-section end -->
+</body>
+</html>
+
+<!-- <section class="grid-test">
+    <div class="row">
+        <div class="col-1-of-2">col 1 of 2</div>
+        <div class="col-1-of-2">col 1 of 2</div>
+    </div>
+    <div class="row">
+        <div class="col-1-of-3">col 1 of 3</div>
+        <div class="col-1-of-3">col 1 of 3</div>
+        <div class="col-1-of-3">col 1 of 3</div>
+    </div>
+    <div class="row">
+        <div class="col-1-of-4">col 1 of 4</div>
+        <div class="col-1-of-4">col 1 of 4</div>
+        <div class="col-1-of-4">col 1 of 4</div>
+        <div class="col-1-of-4">col 1 of 4</div>
+    </div>
+</section> -->
