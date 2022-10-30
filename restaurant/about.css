@@ -1,0 +1,16 @@
+h1{
+    color: rgb(0, 0, 0);
+    padding: auto;
+    border: 1ch;
+    border-color: black;
+    font-size: 100px;
+    align-content: center;
+    text-align: center;
+    margin-top: 18%;
+}
+h5{
+    padding: auto;
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 20%;
+}
