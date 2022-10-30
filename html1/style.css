@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@100,200,300');
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "po";
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+.Container .heading{
+    width: 50%;
+    padding-bottom: 50px;
+}
+.Container .heading h3{
+    font-size: 3em;
+    font-weight: bolder; 
+    margin-left: 50%;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+}
+.Container .heading h3 span{
+    font-weight: 100;
+}
+.Container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Container .box .dream {
+    display: flex;
+    flex-direction: coloumn;
+    width: 20%;   
+}
+.Container .box .dream img{
+    width: 70%;
+    padding-bottom: 5px;
+}
+.Container .btn{
+    margin: 40px 0 70px 0;
+    background: #222;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+.Container .btn a{
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+@media only screen and (max-width: 100px)
+{
+    .Container .box{
+        display: flex;
+        flex-direction: coloumn;
+    }
+    .Container .box .dream
+    {
+        width: 50%;
+    }
+}
+@media only screen and(max-width:100px)
+{
+    .Container .heading {width: 100%;}
+    .Container .heading h3 {
+        font-size: 1em;
+    }
+}

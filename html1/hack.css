@@ -1,0 +1,28 @@
+@media screen and (orientation: portrait) {
+
+    #content {
+        max-height: 100vh;
+    }
+
+    #planes {
+        overflow: hidden;
+        width: 100vw;
+
+        padding: 2.5vh 0;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .plane-wrapper {
+        position: relative;
+
+        width: 70vw;
+        height: calc(100vh / 1.75);
+        margin: 5vw 0;
+    }
+
+    .plane-title {
+        font-size: 10vw;
+    }
+
+}
