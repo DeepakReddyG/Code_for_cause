@@ -1,0 +1,12 @@
+h1{
+    color: black;
+     margin-left: 40%;
+ }
+ body{
+     background-color: lightsalmon;
+ }
+ a {
+    text-decoration:none;
+    display: inline-block;
+    padding: 20px 40px;
+  }
